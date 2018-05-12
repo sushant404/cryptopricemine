@@ -20,7 +20,8 @@ for i in range(96):
     coinArray.to_csv(location)
 
 
-    #waits an hour until collecting data again
-    time.sleep(10)
+#waits an hour until collecting data again
+#not needed with cron
+time.sleep(10)
 #pairsedCoin = json.loads(coin)
 #print(json.dumps(parsedCoin, indent=4, sort_keys=True))
